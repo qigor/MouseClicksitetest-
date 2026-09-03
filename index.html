@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Free Online Mouse Test & CPS Checker | Test Your Mouse Buttons</title>
+    <meta name="description" content="Test your mouse buttons, scroll wheel, double click, and polling rate online for free. The most comprehensive mouse tester and CPS checker." />
+    <!-- SEO Meta Tags -->
+    <meta property="og:title" content="Free Online Mouse Test & CPS Checker" />
+    <meta property="og:description" content="Test your mouse buttons, scroll wheel, double click, and polling rate online for free." />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <!-- Top Ad Slot -->
+    <div class="ad-slot ad-slot-header" id="ad-header">
+      <span class="ad-placeholder">Advertisement</span>
+    </div>
+
+    <header class="site-header">
+      <div class="container">
+        <h1>Mouse Test & CPS Checker</h1>
+        <p>Test your mouse performance, double clicks, and polling rate instantly.</p>
+      </div>
+    </header>
+
+    <main class="container main-content">
+      <!-- Interactive Tester Section -->
+      <section class="test-arena-wrapper" id="test-arena">
+        <div class="test-stats">
+          <div class="stat-box">
+            <span class="stat-label">Clicks</span>
+            <span class="stat-value" id="stat-clicks">0</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-label">CPS</span>
+            <span class="stat-value" id="stat-cps">0.00</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-label">Polling Rate (Hz)</span>
+            <span class="stat-value" id="stat-polling">0</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-label">Double Clicks</span>
+            <span class="stat-value" id="stat-double-clicks">0</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-label">Scroll Speed</span>
+            <span class="stat-value" id="stat-scroll">0</span>
+          </div>
+        </div>
+
+        <div class="mouse-model">
+          <!-- SVG or CSS Mouse Diagram -->
+          <div class="mouse-body">
+            <div class="mouse-btn left-btn" id="btn-left">LMB</div>
+            <div class="mouse-btn right-btn" id="btn-right">RMB</div>
+            <div class="mouse-wheel" id="btn-wheel"></div>
+            <div class="mouse-btn side-btn side-front" id="btn-side-front">M4</div>
+            <div class="mouse-btn side-btn side-back" id="btn-side-back">M5</div>
+          </div>
+        </div>
+        
+        <div class="test-controls">
+          <button id="btn-start-cps" class="btn primary">Start 10s CPS Test</button>
+          <button id="btn-reset" class="btn secondary">Reset Stats</button>
+        </div>
+
+        <div class="log-panel">
+          <h3>Event Log</h3>
+          <ul id="event-log">
+            <li>Waiting for mouse events...</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Content Section for SEO & In-Content Ads -->
+      <article class="seo-content">
+        <h2>How to Use This Mouse Test</h2>
+        <p>This comprehensive online mouse test allows you to verify that all the buttons and sensors on your mouse are functioning correctly. Whether you're a gamer needing high precision, or just fixing a double-clicking issue, our tool covers it all.</p>
+        
+        <!-- In-Content Ad Slot -->
+        <div class="ad-slot ad-slot-content">
+          <span class="ad-placeholder">Advertisement</span>
+        </div>
+
+        <h3>Testing Left, Right, and Middle Clicks</h3>
+        <p>Simply click inside the interactive test area above. The corresponding button on the virtual mouse will light up. The system also tracks your clicks per second (CPS) and any potential double-clicking faults.</p>
+        
+        <h3>Detecting a Double Click Issue</h3>
+        <p>Double-clicking is a common hardware fault where a single click registers as two rapid clicks. Our system measures the time between consecutive clicks on the same button. If the interval is under 80ms, it is flagged as a potential double click.</p>
+
+        <!-- In-Content Ad Slot -->
+        <div class="ad-slot ad-slot-content">
+          <span class="ad-placeholder">Advertisement</span>
+        </div>
+
+        <h3>Polling Rate (Hz) Explained</h3>
+        <p>The polling rate indicates how often your mouse reports its position to the computer. A higher polling rate (e.g., 1000Hz) means less input lag, which is crucial for competitive gaming.</p>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; 2026 Online Mouse Test. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Sticky Footer Ad Slot (Common on premium ad networks) -->
+    <div class="ad-slot ad-slot-sticky-footer">
+      <span class="ad-placeholder">Advertisement</span>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
